@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2de8bcb60b5919e42c37e674403cac1a",
+    "hash": "55f9283cd83ac2cd2b1b16b6cf74631a",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,6 +100,41 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "danielbachhuber/dictator",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danielbachhuber/dictator.git",
+                "reference": "c5be7c29f3e90fdfaec28c3429c3bfb0c00e487c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/c5be7c29f3e90fdfaec28c3429c3bfb0c00e487c",
+                "reference": "c5be7c29f3e90fdfaec28c3429c3bfb0c00e487c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "dictator.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "d@danielbachhuber.com",
+                    "homepage": "http://danielbachhuber.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Dictator controls the state of WordPress",
+            "time": "2014-04-01 17:50:26"
         },
         {
             "name": "johnpbloch/wordpress",
