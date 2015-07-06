@@ -1,0 +1,25 @@
+state: site
+settings:
+  title: Ankur Oberoi
+  description:
+  admin_email: ankur@aoberoi.me
+  timezone: America/Los_Angeles
+  date_format: F j, Y
+  time_format: g:i a
+  # week starts on
+  # site language
+  public: true
+  posts_per_page: 10
+  posts_per_feed: 10
+  feed_uses_excerpt: false
+  allow_comments: true
+  allow_pingbacks: true
+  notify_comments: true
+  notify_moderation: true
+  # maximum rating
+  permalink_structure: /post/%year%/%monthnum%/%postname%/
+  category_base:
+  tag_base:
+  active_theme: twentyfifteen
+  active_plugins: [ ]
+  # theme customize menu settings
